@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is the simple game whice is tik tak toe
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
