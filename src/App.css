@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+.square {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  font-size: 34px;
+  color: rgb(211, 131, 12);
+}
+.board-aline {
+  display: flex;
+  flex-direction: row;
+}
+.aline-men {
+  width: 50%;
+  margin: auto;
+}
+.status-fil {
+  padding-top: 20px;
+  font-size: xx-large;
+  font-weight: 900;
+}
+.allStatus {
+  width: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .aline-men {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
